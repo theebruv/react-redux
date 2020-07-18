@@ -65,5 +65,7 @@ const deleteCourse = (course) => {
 export const courseActions = {
     loadCourses,
     saveCourse,
-    deleteCourse
+    deleteCourse,
+    createCourseSuccess,
+    updateCourseSuccess
 };
